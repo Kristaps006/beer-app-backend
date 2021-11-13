@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "beers",
   "info": {
-    "name": "Beers"
+    "name": "Beers",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -36,6 +37,9 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "beers"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
